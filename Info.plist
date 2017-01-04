@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>HuyNQ</string>
+	<key>Builder Version</key>
+	<string>12602.3.12.0.1</string>
+	<key>CFBundleDisplayName</key>
+	<string>Silence Is Golden</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.huynq.silenceisgolden</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.1</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<integer>1048576</integer>
+		<key>Popovers</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>options.html</string>
+				<key>Height</key>
+				<integer>200</integer>
+				<key>Identifier</key>
+				<string>sigPopover</string>
+				<key>Width</key>
+				<integer>200</integer>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>sigToolbar</string>
+				<key>Image</key>
+				<string>icon64.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>Silence is Golden</string>
+				<key>Palette Label</key>
+				<string>Silence is Golden</string>
+				<key>Popover</key>
+				<string>silenceisgoldenPopover</string>
+				<key>Tool Tip</key>
+				<string>Make you invisible on Facebook</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Companion Bundle Identifier</key>
+	<array>
+		<string>net.huynq.silenceisgolden</string>
+	</array>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>js/background.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Make you invisible on Facebook</string>
+	<key>DeveloperIdentifier</key>
+	<string>0000000000</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://huynq.net/</string>
+</dict>
+</plist>

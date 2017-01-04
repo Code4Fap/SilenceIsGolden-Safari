@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DefaultValue</key>
+		<string>1</string>
+		<key>FalseValue</key>
+		<string>0</string>
+		<key>Key</key>
+		<string>is_invisible</string>
+		<key>Password</key>
+		<false/>
+		<key>Secure</key>
+		<false/>
+		<key>Title</key>
+		<string>Hide online status</string>
+		<key>TrueValue</key>
+		<string>1</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>1</string>
+		<key>FalseValue</key>
+		<string>0</string>
+		<key>Key</key>
+		<string>is_typing</string>
+		<key>Title</key>
+		<string>Hide typing indicator</string>
+		<key>TrueValue</key>
+		<string>1</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>1</string>
+		<key>FalseValue</key>
+		<string>0</string>
+		<key>Key</key>
+		<string>is_unseen</string>
+		<key>Title</key>
+		<string>Hide seen</string>
+		<key>TrueValue</key>
+		<string>1</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+</array>
+</plist>
